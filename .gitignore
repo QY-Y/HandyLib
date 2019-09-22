@@ -1,4 +1,4 @@
-HandyLib/__pycache__/
+HandyLib/HandyLib/__pycache__/
 HandyLib/HandyLib.egg-info/
 HandyLib.egg-info/
 build/
@@ -6,5 +6,8 @@ dist/
 .log
 build_upload.bat
 setup.py
+setup.py
 test.log
 test.py
+.vscode/
+.ipynb_checkpoints
