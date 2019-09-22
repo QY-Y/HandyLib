@@ -2,17 +2,17 @@
 import os
 import json
 
-def read_conf(p='config.json'):
+def read_config(p='config.json'):
 	'''
 	return a dict formated config file
 	if file open error, then return a empty dict
 	'''
 	try:
-		return json.loads(json.loads(read_file(p)))
+		return json.loads(read_file(p))
 	except:
 		return {}
 
-def save_conf(d,p='config.json'):
+def save_config(d,p='config.json'):
 	'''
 	save_conf, for dict type data
 	'''
