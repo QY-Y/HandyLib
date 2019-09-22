@@ -1,0 +1,10 @@
+HandyLib/__pycache__/
+HandyLib/HandyLib.egg-info/
+HandyLib.egg-info/
+build/
+dist/
+.log
+build_upload.bat
+setup.py
+test.log
+test.py
